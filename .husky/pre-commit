@@ -1,0 +1,3 @@
+# Run the Node.js script check
+node commit-scripts/check-staged-files.js
+

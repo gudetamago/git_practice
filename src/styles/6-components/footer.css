@@ -1,0 +1,24 @@
+footer {
+  margin-top: auto;
+  color: var(--color-black);
+  padding-top: var(--spacing-9xl);
+
+  a {
+    color: inherit;
+    display: inline-block;
+    font-family: var(--font-radley);
+    font-size: var(--font-size-xl);
+    text-decoration: none;
+    transition: transform 100ms ease-out, border 100ms ease-out;
+
+    &:hover {
+      transform: translateY(-2px);
+      border-bottom: 1px solid var(--color-black);
+    }
+  }
+
+  .content-container {
+    background-color: var(--color-yellow);
+    padding: var(--spacing-4xl);
+  }
+}

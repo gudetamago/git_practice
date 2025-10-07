@@ -1,0 +1,18 @@
+/* 
+For anyone having a peek at how I have structured this.
+This is a simplified version of ITCSS. I usually like to 
+combine this with a utility first approach.
+
+read more about this here
+https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture
+https://v3.tailwindcss.com/docs/utility-first
+
+ */
+
+@import "./1-settings/index.css";
+@import "./2-tools/index.css";
+@import "./3-generic/index.css";
+@import "./4-elements/index.css";
+@import "./5-objects/index.css";
+@import "./6-components/index.css";
+@import "./7-utilities/index.css";

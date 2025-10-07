@@ -1,0 +1,34 @@
+:root {
+  --base-font-size: 18px;
+  --font-radley: "Radley", serif;
+  --font-space-grotesk: "Space Grotesk", sans-serif;
+
+  /* Font size scale based on base font size */
+  --font-size-xs: calc(var(--base-font-size) * 0.75); /* Extra small (13.5px) */
+  --font-size-sm: calc(var(--base-font-size) * 0.875); /* Small (15.75px) */
+  --font-size-md: var(--base-font-size); /* Medium (18px) */
+  --font-size-lg: calc(var(--base-font-size) * 1.25); /* Large (22.5px) */
+  --font-size-xl: calc(var(--base-font-size) * 1.5); /* Extra large (27px) */
+  --font-size-xxl: calc(
+    var(--base-font-size) * 2
+  ); /* Double extra large (36px) */
+  --font-size-3xl: calc(
+    var(--base-font-size) * 3
+  ); /* Triple extra large (54px) */
+  --font-size-4xl: calc(
+    var(--base-font-size) * 4
+  ); /* Quadruple extra large (72px) */
+
+  /* Line height scale to match font sizes */
+  --line-height-xs: 1.25; /* For extra small text (16.875px) */
+  --line-height-sm: 1.4; /* For small text (21px) */
+  --line-height-md: 1.5; /* For medium text (27px) */
+  --line-height-lg: 1.6; /* For large text (36px) */
+  --line-height-xl: 1.75; /* For extra large text (47.25px) */
+  --line-height-xxl: 2; /* For double extra large text (72px) */
+  --line-height-3xl: 2.25; /* For triple extra large text (121.5px) */
+  --line-height-4xl: 2.5; /* For quadruple extra large text (180px) */
+
+  --title-font: var(--font-radley);
+  --body-font: var(--font-space-grotesk);
+}

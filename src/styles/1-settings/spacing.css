@@ -1,0 +1,19 @@
+:root {
+  --base-spacing: 4px;
+
+  --spacing-xs: calc(var(--base-spacing) * 0.5);
+  --spacing-sm: calc(var(--base-spacing) * 1);
+  --spacing-md: calc(var(--base-spacing) * 2);
+  --spacing-lg: calc(var(--base-spacing) * 3);
+  --spacing-xl: calc(var(--base-spacing) * 4);
+  --spacing-xxl: calc(var(--base-spacing) * 6);
+  --spacing-3xl: calc(var(--base-spacing) * 8);
+  --spacing-4xl: calc(var(--base-spacing) * 10);
+  --spacing-5xl: calc(var(--base-spacing) * 12);
+  --spacing-6xl: calc(var(--base-spacing) * 14);
+  --spacing-7xl: calc(var(--base-spacing) * 16);
+  --spacing-8xl: calc(var(--base-spacing) * 18);
+  --spacing-9xl: calc(var(--base-spacing) * 20);
+
+  --section-padding: var(--spacing-7xl);
+}
